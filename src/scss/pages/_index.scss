@@ -1093,11 +1093,11 @@
         padding-top: 3rem !important;
     }
 	.main-section__title{
-		font-size: 5rem;
+		font-size: 4rem;
 		margin-bottom: 3rem;
 	}
 	.main-section__title span{
-		font-size: 3rem;
+		font-size: 2rem;
 	}
 	.main-section__advantages{
 		padding: 1.5rem;
@@ -1105,6 +1105,12 @@
 	.main-section__advantages .main-section__advantages-item img{
 		width: 5rem;
 		height: 5rem;
+	}
+	.diagnostic .diagnostic__block-two{
+		right: 19rem;
+	}
+	.main-section__li{
+		font-size: 1.9rem;
 	}
 }
 
