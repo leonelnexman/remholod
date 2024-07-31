@@ -16,9 +16,26 @@ body{
     margin: auto;
 }
 
+.advantages{
+    background-position: center !important;
+}
+
+
 @media (max-width: 962px) {
 	html{
 		font-size: calc(100vw / 430 * 10);
 	}
+}
+
+@media (max-width: 1440px) {
+	html{
+		font-size: calc(100vw / 1920 * 13);
+	}
+    .advantages__block:nth-child(2){
+        right: 25rem !important;
+    }
+    .main-section__suptitle{
+        padding-top: 3rem !important;
+    }
 }
 

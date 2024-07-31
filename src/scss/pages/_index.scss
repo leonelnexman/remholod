@@ -109,7 +109,7 @@
 	margin-bottom: 3rem;
 }
 .main-section__li{
-	font-family: 'Monserrat', sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 2.5rem;
 	color: #fff;
 	padding-left: 1.5rem;
@@ -140,6 +140,9 @@
 	font-weight: 700;
 	font-size: 1.7rem;
 }
+.advantages{
+	padding-top: 5rem;
+}
 .main-section__advantages{
 	position: absolute;
 	z-index: 1;
@@ -167,6 +170,7 @@
 }
 .services{
 	padding: 7rem 0 10rem;
+	background: #EFF0F0;
 	.container{
 		display: flex;
 		justify-content: space-between;
@@ -233,7 +237,7 @@
 	display: flex;
 	flex-direction: column;
 	gap: 5rem;
-	padding-top: 11rem;
+	padding-top: 7rem;
 	padding-left: 5rem;
 	&:nth-child(2){
 		position: absolute;
@@ -1055,6 +1059,29 @@
 		bottom: 0;
 		width: 13.4rem;
 	 }
+}
+
+@media (max-width: 1440px) {
+    .advantages__block:nth-child(2){
+        right: 25rem !important;
+    }
+    .main-section__suptitle{
+        padding-top: 3rem !important;
+    }
+	.main-section__title{
+		font-size: 5rem;
+		margin-bottom: 3rem;
+	}
+	.main-section__title span{
+		font-size: 3rem;
+	}
+	.main-section__advantages{
+		padding: 1.5rem;
+	}
+	.main-section__advantages .main-section__advantages-item img{
+		width: 5rem;
+		height: 5rem;
+	}
 }
 
 
