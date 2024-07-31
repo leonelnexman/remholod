@@ -776,5 +776,14 @@ const swiper = new Swiper('.masters__slider', {
     prevEl: '.swiper-button-prev',
   },
 });
+
+window.addEventListener('scroll', function() {
+    var header = document.querySelector('.header');
+    if (window.scrollY >= 300) {
+        header.classList.add('fixed');
+    } else {
+        header.classList.remove('fixed');
+    }
+});
    </script>
 </html>

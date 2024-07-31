@@ -1,9 +1,33 @@
 .header{
-	position: absolute;
+	position: fixed;
 	width: 100%;
 	left: 0;
 	top: 5rem;
 	z-index: 777;
+	transition: all 0.3S;
+	&.fixed{
+		top: 0;
+		padding: 1rem;
+		background: rgba($color: #FFF, $alpha: 0.9);
+		.logo div{
+			color: #000;
+		}
+		.logo p{
+			color: #000;
+		}
+		.logo p:nth-child(3){
+			border-top: .1rem solid #000;
+		}
+		.nav__item{
+			color: #000;
+		}
+		.header__tel{
+			color: #000;
+		}
+		.header__time{
+			color: #000;
+		}
+	}
 	.container{
 		display: flex;
 		align-items: center;
